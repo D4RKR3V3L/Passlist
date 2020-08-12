@@ -2,16 +2,16 @@
 #
 #  [Program]
 #
-#  CUPP Password list
+#  CUPP
 #  Common User Passwords Profiler
 #
 #  [Author]
 #
-# Dark Revel
+#  Dark Revel
 #  
-#  
-#  
-#
+#  https://www.facebook.com/i.am.a.Dark.membar.on.BM.Team
+#  DRBoss
+# https://www.facebook.com/pg/Dark.Revel.Rakib.Vau
 #  [License]
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -157,7 +157,7 @@ def print_to_file(filename, unique_list_finished):
 
 def print_cow():
     print(" ___________ ")
-    print(" \033[07m  cuppPasswordlist.py! \033[27m                # \033[07mC\033[27mommon")
+    print(" \033[07m  cupp.py! \033[27m                # \033[07mC\033[27mommon")
     print("      \                     # \033[07mU\033[27mser")
     print("       \   \033[1;31m,__,\033[1;m             # \033[07mP\033[27masswords")
     print(
@@ -165,17 +165,16 @@ def print_cow():
     )
     print("           \033[1;31m(__)    )\ \033[1;m  ")
     print(
-        "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m    "
+        "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m    [ Page https://www.facebook.com/pg/Dark.Revel.Rakib.Vau]"
     )
-    print(28 * " " + "[ DarkRevel | https://github.com/DarkRevel/]\r\n")
+    print(28 * " " + "[ Dark Revel | https://github.com/darkrevel/]\r\n")
 
 
 def version():
     """Display version"""
 
-    print("\r\n	\033[1;31m[ cuppPasswordlist.py ]  " + __version__ + "\033[1;m\r\n")
-    print("	* Hacked up by Dark Revel")
-
+    print("\r\n	\033[1;31m[ cupp.py ]  " + __version__ + "\033[1;m\r\n")
+    print("	* Hacked up by DarkRevel - https://www.facebook.com/pg/Dark.Revel.Rakib.Vau")
     print("	Take a look ./README.md file for more info about the program\r\n")
 
 
@@ -296,7 +295,7 @@ def improve_dictionary(file_to_open):
         if len(x) > CONFIG["global"]["wcfrom"] and len(x) < CONFIG["global"]["wcto"]
     ]
 
-    print_to_file(file_to_open + ".cuppPasswordlist.txt", unique_list_finished)
+    print_to_file(file_to_open + ".cupp.txt", unique_list_finished)
 
     fajl.close()
 
@@ -1087,9 +1086,9 @@ def get_parser():
     parser.add_argument(
         "-q", "--quiet", action="store_true", help="Quiet mode (don't print banner)"
     )
-
+print("Black Whale Cyber Source Team")
     return parser
 
-print("Black Whale cyber source Team,We make a system && fuck any system ")
+
 if __name__ == "__main__":
     main()
