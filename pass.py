@@ -8,10 +8,9 @@
 #  [Author]
 #
 #  Dark Revel
-#  https://www.facebook.com/i.am.a.Dark.membar.on.BM.Team
-#  DRBoss
-# https://www.facebook.com/pg/Dark.Revel.Rakib.Vau
-#  
+#  j0rgan [at] remote-exploit [dot] org
+#  http://www.remote-exploit.org
+#  http://www.azuzi.me
 #
 #  [License]
 #
@@ -43,7 +42,7 @@ import urllib.parse
 import urllib.request
 import time
 
-__author__ = "Dark revel"
+__author__ = "Mebus"
 __license__ = "GPL"
 __version__ = "3.3.0"
 
@@ -166,7 +165,7 @@ def print_cow():
     )
     print("           \033[1;31m(__)    )\ \033[1;m  ")
     print(
-        "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m      [ page- https://www.facebook.com/pg/Dark.Revel.Rakib.Vau ]"
+        "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m      [ Dark Revel- https://www.facebook.com/pg/Dark.Revel.Rakib.Vau ]"
     )
     print(28 * " " + "[ DarkRevel | https://github.com/darkrevel/]\r\n")
 
@@ -175,8 +174,8 @@ def version():
     """Display version"""
 
     print("\r\n	\033[1;31m[ cupp.py ]  " + __version__ + "\033[1;m\r\n")
-    print("	* Hacked by Dark Revel")
-    print("	* Black Whale Cyber Source\r\n")
+    print("	* Hacked up by j0rgan - j0rgan@remote-exploit.org")
+    print("	* http://www.remote-exploit.org\r\n")
     print("	Take a look ./README.md file for more info about the program\r\n")
 
 
