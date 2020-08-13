@@ -1087,6 +1087,5 @@ def get_parser():
         "-q", "--quiet", action="store_true", help="Quiet mode (don't print banner)"
  
 
-return parser
 if __name__ == "__main__":
     main()
