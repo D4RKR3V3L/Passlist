@@ -1085,10 +1085,8 @@ def get_parser():
     )
     parser.add_argument(
         "-q", "--quiet", action="store_true", help="Quiet mode (don't print banner)"
-    )
-print("Black Whale Cyber Source Team")
-    return parser
+ 
 
-
+return parser
 if __name__ == "__main__":
     main()
